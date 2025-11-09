@@ -1,0 +1,19 @@
+{
+    "name": "rapli-dev/online-store",
+    "description": "complex online store application using native PHP",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "RapliDev\\OnlineStore\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RAPLI-DEV",
+            "email": "rafidendi123987@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

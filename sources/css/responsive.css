@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    :root {
+        --font-size-base: calc(15px - 4px) !important;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    #Header {
+        min-height: 60px;
+    }
+
+    .logo {
+        width: auto;
+    }
+
+    #navbar {
+        width: 100%;
+    }
+
+    #hero {
+        width: auto;
+        padding: 0;
+    }
+
+    #hero i:nth-of-type(2),
+    #hero i:nth-of-type(3) {
+        display: none;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(auto-fit, 150px);
+    }
+
+    .product-card {
+        height: auto !important;
+    }
+}
